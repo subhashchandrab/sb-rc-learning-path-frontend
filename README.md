@@ -10,3 +10,10 @@ Create a .env file under root directory to pass the following environment variab
 - REACT_APP_BASE_URL: Base URL for the Sunbird RC registry
 - REACT_APP_API_BASE_URL: Base URL for invoking the APIs.
 - REACT_APP_KEYCLOAK_URL: Keycloak service URL
+
+cd sb-rc-learning-path-frontend
+npm start
+
+# Docker Container
+docker build -t sb-rc-frontend .
+docker run -p 4200:4200 -t sb-rc-frontend
