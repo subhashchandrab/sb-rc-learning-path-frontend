@@ -16,4 +16,5 @@ npm start
 
 # Docker Container
 docker build -t sb-rc-frontend .
+
 docker run -p 4200:4200 -t sb-rc-frontend
