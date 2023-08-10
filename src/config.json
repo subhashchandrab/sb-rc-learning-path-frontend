@@ -1,0 +1,4 @@
+{
+    "PRODUCT_CATALOG_SERVICE_URL": "https://artemis.catalog.ocloud.today/api/insurance_types/",
+    "QUOTE_SERVICE_URL": "http://localhost:8080/acme/getInsuranceQuotes"
+}

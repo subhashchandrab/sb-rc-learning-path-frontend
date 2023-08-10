@@ -1,0 +1,43 @@
+{
+    "/registry/api/v1": {
+      "target": "http://demo-admin-portal.sunbirdrc.oci",
+      "changeOrigin": true,
+      "logLevel": "debug",
+      "secure": false
+
+    },
+
+    "/registry/api": {
+      "target": "http://demo-admin-portal.sunbirdrc.oci",
+      "changeOrigin": true,
+      "logLevel": "debug",
+      "secure": false
+
+    },
+
+    "/registry/api/docs": {
+      "target": "http://demo-admin-portal.sunbirdrc.oci",
+      "changeOrigin": true,
+      "logLevel": "debug",
+      "secure": false
+    },
+    "/github": {
+      "target": "https://gist.githubusercontent.com/",
+      "changeOrigin": true,
+      "logLevel": "debug",
+      "secure": false
+    },
+    "/metrics": {
+      "target": "http://demo-admin-portal.sunbirdrc.oci",
+      "changeOrigin": true,
+      "logLevel": "debug",
+      "secure": false
+    },
+    "/bulk/v1": {
+      "target": "http://demo-admin-portal.sunbirdrc.oci",
+      "changeOrigin": true,
+      "logLevel": "debug",
+      "secure": false
+    }
+
+  }
